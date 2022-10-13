@@ -1,5 +1,4 @@
 Run the following command to get the hard negative samples:
-
 python focus_peturbation.py --sample_size 128 --batch 64 --dataset ../dataset/jsons/meqsum/train.json --output ../dataset/jsons/meqsum_contrast/contrast
 
 To train QFCL:
